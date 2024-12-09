@@ -99,4 +99,3 @@ name=power&while=text&occur=example@school.com&from=01.01.2000
 ```
 name=street&may=01.01.2000&oil=2024-12-09
 ```
-```
