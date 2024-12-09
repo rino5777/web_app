@@ -30,7 +30,7 @@ class GetFormView(APIView):
         # обработка данных
         matching_template = find_matching_template(clean_data_dict)
         if matching_template:
-            return Response({"template_name": matching_template}, status=status.HTTP_200_OK)
+            return Response({"Имя": matching_template}, status=status.HTTP_200_OK)
 
         # Определяем типы полей, если шаблон не найден
         response_data = {
